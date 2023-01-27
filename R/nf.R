@@ -7,7 +7,7 @@ niet_fun <- function(n){
     min = min(n),
     max = max(n),
     range = max(n) - min(n),
-    quantile = quantile(n),
+  
     sum = sum(n)
   )
 }
